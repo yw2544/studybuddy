@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163BE2674DEDF601DA1FFBDA /* Pods_Study_buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6452F90A0BAE8318A5A9315B /* Pods_Study_buddy.framework */; };
+		33AD2761A747AF0CFDB7C993 /* Pods_Studybuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604ED06D4D651EB00F28D2EB /* Pods_Studybuddy.framework */; };
 		CA44A63E2B1810160098D9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A63D2B1810160098D9BE /* AppDelegate.swift */; };
 		CA44A6402B1810160098D9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A63F2B1810160098D9BE /* SceneDelegate.swift */; };
 		CA44A6422B1810160098D9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6412B1810160098D9BE /* ViewController.swift */; };
@@ -30,7 +30,8 @@
 
 /* Begin PBXFileReference section */
 		3A6FC1EC03CDEF4FF803F7FB /* Pods-Study buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study buddy.debug.xcconfig"; path = "Target Support Files/Pods-Study buddy/Pods-Study buddy.debug.xcconfig"; sourceTree = "<group>"; };
-		6452F90A0BAE8318A5A9315B /* Pods_Study_buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Study_buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		604ED06D4D651EB00F28D2EB /* Pods_Studybuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Studybuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F023499BD99D60E7A8F8DF /* Pods-Studybuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.debug.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.debug.xcconfig"; sourceTree = "<group>"; };
 		9AE3A0BA2C00053684C8385B /* Pods-Study buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Study buddy.release.xcconfig"; path = "Target Support Files/Pods-Study buddy/Pods-Study buddy.release.xcconfig"; sourceTree = "<group>"; };
 		CA44A63A2B1810160098D9BE /* Studybuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studybuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA44A63D2B1810160098D9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		CA44A6772B199EA40098D9BE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CA44A6792B1A785B0098D9BE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		CA44A67B2B1A78B40098D9BE /* Confirm Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Confirm Profile.swift"; sourceTree = "<group>"; };
+		EBCEADFF6555CD1FA26298F0 /* Pods-Studybuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.release.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163BE2674DEDF601DA1FFBDA /* Pods_Study_buddy.framework in Frameworks */,
+				33AD2761A747AF0CFDB7C993 /* Pods_Studybuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +71,7 @@
 		45855BC18A45B9B73BDA4A40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6452F90A0BAE8318A5A9315B /* Pods_Study_buddy.framework */,
+				604ED06D4D651EB00F28D2EB /* Pods_Studybuddy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,6 +81,8 @@
 			children = (
 				3A6FC1EC03CDEF4FF803F7FB /* Pods-Study buddy.debug.xcconfig */,
 				9AE3A0BA2C00053684C8385B /* Pods-Study buddy.release.xcconfig */,
+				95F023499BD99D60E7A8F8DF /* Pods-Studybuddy.debug.xcconfig */,
+				EBCEADFF6555CD1FA26298F0 /* Pods-Studybuddy.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -243,7 +247,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Study buddy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Studybuddy-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -256,15 +260,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Study buddy/Pods-Study buddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Studybuddy/Pods-Studybuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Study buddy/Pods-Study buddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Studybuddy/Pods-Studybuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Study buddy/Pods-Study buddy-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Studybuddy/Pods-Studybuddy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -435,7 +439,7 @@
 		};
 		CA44A64F2B1810180098D9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A6FC1EC03CDEF4FF803F7FB /* Pods-Study buddy.debug.xcconfig */;
+			baseConfigurationReference = 95F023499BD99D60E7A8F8DF /* Pods-Studybuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,7 +467,7 @@
 		};
 		CA44A6502B1810180098D9BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AE3A0BA2C00053684C8385B /* Pods-Study buddy.release.xcconfig */;
+			baseConfigurationReference = EBCEADFF6555CD1FA26298F0 /* Pods-Studybuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
