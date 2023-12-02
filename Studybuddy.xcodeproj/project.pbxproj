@@ -16,7 +16,6 @@
 		CA44A64A2B1810180098D9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA44A6482B1810180098D9BE /* LaunchScreen.storyboard */; };
 		CA44A6532B1810B90098D9BE /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6522B1810B90098D9BE /* LibraryCell.swift */; };
 		CA44A6592B18150B0098D9BE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6582B18150B0098D9BE /* Post.swift */; };
-		CA44A65D2B1816910098D9BE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A65C2B1816910098D9BE /* UIColor+Extension.swift */; };
 		CA44A6652B1819A50098D9BE /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6642B1819A50098D9BE /* Library.swift */; };
 		CA44A6672B1819B10098D9BE /* dummydata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6662B1819B10098D9BE /* dummydata.swift */; };
 		CA44A66A2B1910EA0098D9BE /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6692B1910EA0098D9BE /* LibraryView.swift */; };
@@ -26,6 +25,7 @@
 		CA44A6782B199EA40098D9BE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6772B199EA40098D9BE /* NetworkManager.swift */; };
 		CA44A67A2B1A785B0098D9BE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A6792B1A785B0098D9BE /* ProfileVC.swift */; };
 		CA44A67C2B1A78B40098D9BE /* Confirm Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A67B2B1A78B40098D9BE /* Confirm Profile.swift */; };
+		CA44A67E2B1AACF60098D9BE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44A67D2B1AACF60098D9BE /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		CA44A64B2B1810180098D9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA44A6522B1810B90098D9BE /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
 		CA44A6582B18150B0098D9BE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		CA44A65C2B1816910098D9BE /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../../../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/818bf9017cd1494aeeff098996d0652e/Message/MessageTemp/062c05aa93db7f530d81953963d3cead/File/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CA44A6642B1819A50098D9BE /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		CA44A6662B1819B10098D9BE /* dummydata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummydata.swift; sourceTree = "<group>"; };
 		CA44A6692B1910EA0098D9BE /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		CA44A6772B199EA40098D9BE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CA44A6792B1A785B0098D9BE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		CA44A67B2B1A78B40098D9BE /* Confirm Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Confirm Profile.swift"; sourceTree = "<group>"; };
+		CA44A67D2B1AACF60098D9BE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		EBCEADFF6555CD1FA26298F0 /* Pods-Studybuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Studybuddy.release.xcconfig"; path = "Target Support Files/Pods-Studybuddy/Pods-Studybuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,10 +136,10 @@
 		CA44A6552B1814C20098D9BE /* models */ = {
 			isa = PBXGroup;
 			children = (
-				CA44A65C2B1816910098D9BE /* UIColor+Extension.swift */,
 				CA44A6582B18150B0098D9BE /* Post.swift */,
 				CA44A6642B1819A50098D9BE /* Library.swift */,
 				CA44A6662B1819B10098D9BE /* dummydata.swift */,
+				CA44A67D2B1AACF60098D9BE /* UIColor+Extension.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -281,13 +281,13 @@
 				CA44A6702B194FD60098D9BE /* NewpostCell.swift in Sources */,
 				CA44A6722B194FE50098D9BE /* PostpoolCell.swift in Sources */,
 				CA44A67A2B1A785B0098D9BE /* ProfileVC.swift in Sources */,
-				CA44A65D2B1816910098D9BE /* UIColor+Extension.swift in Sources */,
 				CA44A6782B199EA40098D9BE /* NetworkManager.swift in Sources */,
 				CA44A6422B1810160098D9BE /* ViewController.swift in Sources */,
 				CA44A6532B1810B90098D9BE /* LibraryCell.swift in Sources */,
 				CA44A6672B1819B10098D9BE /* dummydata.swift in Sources */,
 				CA44A66E2B194B050098D9BE /* PostController.swift in Sources */,
 				CA44A63E2B1810160098D9BE /* AppDelegate.swift in Sources */,
+				CA44A67E2B1AACF60098D9BE /* UIColor+Extension.swift in Sources */,
 				CA44A66A2B1910EA0098D9BE /* LibraryView.swift in Sources */,
 				CA44A6402B1810160098D9BE /* SceneDelegate.swift in Sources */,
 				CA44A6592B18150B0098D9BE /* Post.swift in Sources */,
