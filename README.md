@@ -1,4 +1,4 @@
 # studybuddy
+<img src="images/profile_sample.jpg" alt="StudyBuddy" width="500">
 
-![studybuddy](images/profile_sample.jpg)
 ![studybuddy](images/page_sample.jpg)
